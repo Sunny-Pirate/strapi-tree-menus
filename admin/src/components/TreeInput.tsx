@@ -43,7 +43,10 @@ export interface I18n {
 }
 
 const TreeInput = React.forwardRef<HTMLButtonElement, TreeInputProps>(
-  ({ hint, disabled = false, labelAction, label, name, required = false, onChange, value = [], error, ...props }, forwardedRef) => {
+  (
+    { hint, disabled = false, labelAction, label, name, required = false, onChange, value = [], error, ...props },
+    forwardedRef
+  ) => {
     const {
       attribute: {
         options: { schemas },

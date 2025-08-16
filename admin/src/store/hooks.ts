@@ -1,5 +1,5 @@
 import type { Store } from '@strapi/strapi/admin'
-import { TypedUseSelectorHook,useDispatch, useSelector } from 'react-redux'
+import { TypedUseSelectorHook, useDispatch, useSelector } from 'react-redux'
 
 type RootState = ReturnType<Store['getState']> & {
   ['content-manager']: any

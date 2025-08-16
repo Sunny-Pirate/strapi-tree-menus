@@ -35,6 +35,7 @@ yarn add strapi-plugin-tree-menus@latest
 ```
 
 ### Hot fix issue between <a href="https://vite.dev/">vite</a> and <a href="https://www.npmjs.com/package/traverse">traverse</a>
+
 - `Unsupported fieldtype: plugin::tree-menus.tree`
 - `Vite 'global is not defined'`
 

@@ -3,7 +3,10 @@ import { Core } from '@strapi/strapi'
 import { PLUGIN_ID } from '../../../admin/src/pluginId'
 import { Services } from '../services'
 
-const getService = <TName extends keyof Services>(name: TName, { strapi }: { strapi: Core.Strapi } = { strapi: global.strapi }): Services[TName] => {
+const getService = <TName extends keyof Services>(
+  name: TName,
+  { strapi }: { strapi: Core.Strapi } = { strapi: global.strapi }
+): Services[TName] => {
   return strapi.plugin(PLUGIN_ID).service<Services[TName]>(name)
 }
 
