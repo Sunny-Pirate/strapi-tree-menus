@@ -1,6 +1,6 @@
 {
   "name": "@sunny-pirate/strapi-plugin-tree-menus",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Menu manage and custom tree field",
   "keywords": [],
   "homepage": "https://github.com/annhdev/strapi-tree-menus#readme",
